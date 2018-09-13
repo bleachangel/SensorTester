@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sensors_list" >
+        <item>Accelerometer</item>
+        <item>Gyroscope</item>
+        <item>Magentic</item>
+    </string-array>
+</resources>

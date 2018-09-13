@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AccelerometerActivity">
+
+    <TextView
+        android:id="@+id/accel_hint_textview"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:height="@android:dimen/app_icon_size"
+        android:clickable="false"
+        android:text="@string/accel_hint_txt" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/accel_coordinate_hint_textview"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:height="@android:dimen/app_icon_size"
+            android:text="@string/accel_coordinate" />
+
+        <TextView
+            android:id="@+id/accel_coordinate_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="@android:dimen/app_icon_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="@android:dimen/app_icon_size"
+            android:text="@string/btn_next" />
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="@android:dimen/app_icon_size"
+            android:text="@string/btn_stop" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="@android:dimen/app_icon_size"
+            android:text="@string/btn_save" />
+
+        <Button
+            android:id="@+id/btn_recode_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="@android:dimen/app_icon_size"
+            android:text="@string/btn_record_list" />
+
+    </LinearLayout>
+</LinearLayout>

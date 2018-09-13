@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SensorTester</string>
+    <string name="accel_hint_txt"> 操作注意：先将设备放置好，然后再进行数据记录。\n \'next\'执行记录下一个数据，\'stop\'终止记录数据，\'save\'保存记录到文件，\'record list\'显示保存的记录。</string>
+    <string name="btn_next">next</string>
+    <string name="btn_stop">stop</string>
+    <string name="btn_save">save</string>
+    <string name="btn_record_list">record list</string>
+    <string name="accel_coordinate">coordinate:</string>
+    <string name="accel_recording">accelerometer record is running...</string>
+    <string name="mag_recording">magnetic record is running...</string>
+</resources>

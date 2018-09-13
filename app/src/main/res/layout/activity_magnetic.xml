@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MagneticActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mag_hint_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="@android:dimen/app_icon_size"
+            android:text="@string/accel_hint_txt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mag_coordinate_hint_textview"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:height="@android:dimen/app_icon_size"
+            android:text="@string/accel_coordinate" />
+
+        <TextView
+            android:id="@+id/mag_coordinate_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="@android:dimen/app_icon_size"
+            android:singleLine="false"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_mag_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="@android:dimen/app_icon_size"
+            android:text="@string/btn_next" />
+
+        <Button
+            android:id="@+id/btn_mag_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="@android:dimen/app_icon_size"
+            android:text="@string/btn_stop" />
+
+        <Button
+            android:id="@+id/btn_mag_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="@android:dimen/app_icon_size"
+            android:text="@string/btn_save" />
+
+        <Button
+            android:id="@+id/btn_mag_list_records"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="@android:dimen/app_icon_size"
+            android:text="@string/btn_record_list" />
+    </LinearLayout>
+
+</LinearLayout>
